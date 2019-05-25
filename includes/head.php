@@ -11,6 +11,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Adult recreational sand volleyball leagues at JAMMS Midnight Moon in Painesville, Ohio." />
+
     <link rel="shortcut icon" href="/img/favicon-16x16.png" type="image/png">
     <link rel="shortcut icon" href="/img/favicon-512x512.png" type="image/png">
     <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/png">

@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <?php include('includes/head.php'); ?>
-    <title>JAMMSVolleyball.com - JAMMS Midnight Moon Volleyball</title>
+    <?php include('../../../includes/head.php'); ?>
+    <title>JAMMSVolleyball.com - Sunday Schedule and Standings</title>
 </head>
 
 <body>
     <section class="hero is-fullheight is-default is-bold">
         <div class="hero-head">
-            <?php include('includes/nav.php'); ?>
+            <?php include('../../../includes/nav.php'); ?>
         </div>
         <div class="hero-body">
          
@@ -129,7 +129,7 @@
             </div>
         </div>
 
-        <?php include('includes/footer.php'); ?>
+        <?php include('../../../includes/footer.php'); ?>
     </section>
 </body>
 

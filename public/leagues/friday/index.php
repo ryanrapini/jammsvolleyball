@@ -3,7 +3,7 @@
 
 <head>
     <?php include('../../../includes/head.php'); ?>
-    <title>JAMMSVolleyball.com - JAMMS Midnight Moon Volleyball</title>
+    <title>JAMMSVolleyball.com - Friday Schedule and Standings</title>
 </head>
 
 <body>

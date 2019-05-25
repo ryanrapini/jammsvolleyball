@@ -82,15 +82,15 @@ Name/Phone Number of Captain</pre>
                         </p>
                     </div>
                     <div class="column is-5 is-offset-1">
-                        <img src="img/courts.jpg">
+                        <img src="/img/courts.jpg">
                     </div>
                 </div>
                 <div class="is-divider"></div>
                 <div class="columns is-vcentered">
                     <div class="column is-5">
-                        <img src="img/play1.jpg" style="margin-bottom:80px">
-                        <img src="img/play2.jpg" style="margin-bottom:80px">
-                        <img src="img/play3.jpg" style="margin-bottom:80px">
+                        <img src="/img/play1.jpg" style="margin-bottom:80px">
+                        <img src="/img/play2.jpg" style="margin-bottom:80px">
+                        <img src="/img/play3.jpg" style="margin-bottom:80px">
                     </div>
                     <div class="column is-6 is-offset-1">
                         <h1 class="title is-2" id="rules">
