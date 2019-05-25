@@ -2,104 +2,14 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36315440-4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-36315440-4');
-  </script>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php include('../../../includes/head.php'); ?>
     <title>JAMMSVolleyball.com - JAMMS Midnight Moon Volleyball</title>
-    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/png">
-    <link rel="shortcut icon" href="img/favicon-512x512.png" type="image/png">
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.7.4-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
-    <link rel="stylesheet" href="css/bulma-divider.min.css"></link>
-
-    <style type="text/css">
-        html,
-        body {
-            font-family: 'Open Sans';
-        }
-
-        img {
-            padding: 5px;
-            border: 1px solid #ccc;
-        }
-
-        .navbar-brand {
-            font-size: 30px;
-            padding-top: 6px;
-        }
-        p {
-            line-height: 1.9;
-        }
-
-        h4 {
-            margin-bottom:12px !important;
-            margin-top:12px !important;
-        }
-
-        textarea {
-            width: ;
-        }
-
-        #hero-banner {
-            height:360px;
-            background: #33ccff url('img/courts1.jpg') no-repeat top;
-            color: white;
-        }
-
-        #hero-banner-caption {
-            padding: 20px;
-            background-color: rgba(0,0,0,.5);
-        }
-
-        #hero-banner .title {
-            color:white;
-            font-size: 80px;
-        }
-
-        #hero-banner .subtitle {
-            color:white;
-            font-size: 28px;
-        }
-    </style>
 </head>
 
 <body>
     <section class="hero is-fullheight is-default is-bold">
         <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        JAMMS Midnight Moon Volleyball
-                    </div>
-                    <div id="navbarMenu" class="navbar-menu">
-                        <div class="navbar-end">
-                            <div class="tabs is-right">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/jammsvolleyball/">Facebook</a></li>
-                                    <li><a href="https://www.jammsmidnightmoonsaloon.com/">Bar Website</a></li>
-                                    <li><a href="friday.html">Fridays</a></li>
-                                    <li><a href="sunday.html">Sundays</a></li>
-                                    <li><a href="#rules">Rules</a></li>
-                                    <li><a href="#contact">Contact and Location</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+            <?php include('../../../includes/nav.php'); ?>
         </div>
         <div class="hero-body">
          
@@ -115,6 +25,7 @@
                                 <tr>
                                     <th>#</th>
                                     <th>Team Name</th>
+                                    <th>Matches Played</th>
                                     <th>Games Won</th>
                                     <th>Games Lost</th>
                                 </tr>
@@ -123,24 +34,28 @@
                                 <tr>
                                     <td>1</td>
                                     <td>Save the Earth</td>
+                                    <td>1</td>
                                     <td>3</td>
                                     <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Rykon plating Inc.</td>
-                                    <td>0</td>
+                                    <td>Team 4</td>
+                                    <td>1</td>
                                     <td>3</td>
+                                    <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Ereck digs balls</td>
+                                    <td>Rykon plating Inc.</td>
+                                    <td>1</td>
                                     <td>0</td>
-                                    <td>0</td>
+                                    <td>6</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Team 4</td>
+                                    <td>Key Bumps</td>
+                                    <td>1</td>
                                     <td>0</td>
                                     <td>0</td>
                                 </tr>
@@ -187,7 +102,7 @@
                                     <td>3</td>
                                     <td>May 31st</td>
                                     <td>8:30</td>
-                                    <td>Ereck digs balls</td>
+                                    <td>Key Bumps</td>
                                     <td>Rykon plating Inc.</td>
                                 </tr>
                             </tbody>
@@ -197,13 +112,7 @@
             </div>
         </div>
 
-        <footer class="footer">
-          <div class="content has-text-centered">
-            <p>
-                Copyright 2019 - Made by Ryan Rapini
-          </p>
-      </div>
-  </footer>
+        <?php include('../../../includes/footer.php'); ?>
     </section>
 </body>
 

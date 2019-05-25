@@ -1,0 +1,44 @@
+html, body {
+  font-family: "Open Sans";
+}
+
+img {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding-top: 6px;
+}
+
+p {
+  line-height: 1.9;
+}
+
+h4 {
+  margin-bottom: 12px !important;
+  margin-top: 12px !important;
+}
+
+#hero-banner {
+  height: 360px;
+  background: #33ccff url("/img/courts1.jpg") no-repeat top;
+  color: white;
+}
+
+#hero-banner-caption {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero-banner .title {
+  color: white;
+  font-size: 80px;
+}
+#hero-banner .subtitle {
+  color: white;
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,28 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "build_systems":
+    [
+        {
+           "name": "sass",
+		   "cmd": ["sass", "--update", "$file:${file_path}/../public/css/${file_base_name}.css", "--stop-on-error"],
+		   "selector": "source.sass, source.scss",
+		   "line_regex": "Line ([0-9]+):",
+
+		   "osx":
+		   {
+		      "path": "/usr/local/bin:$PATH"
+		   },
+
+		   "windows":
+		   {
+		      "shell": "true"
+		   }
+
+		}
+    ]
+}

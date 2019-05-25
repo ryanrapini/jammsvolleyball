@@ -2,107 +2,16 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36315440-4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-36315440-4');
-  </script>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php include('../includes/head.php'); ?>
     <title>JAMMSVolleyball.com - JAMMS Midnight Moon Volleyball</title>
-    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/png">
-    <link rel="shortcut icon" href="img/favicon-512x512.png" type="image/png">
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.7.4-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
-    <link rel="stylesheet" href="css/bulma-divider.min.css"></link>
-
-    <style type="text/css">
-        html,
-        body {
-            font-family: 'Open Sans';
-        }
-
-        img {
-            padding: 5px;
-            border: 1px solid #ccc;
-        }
-
-        .navbar-brand {
-            font-size: 30px;
-            padding-top: 6px;
-        }
-        p {
-            line-height: 1.9;
-        }
-
-        h4 {
-            margin-bottom:12px !important;
-            margin-top:12px !important;
-        }
-
-        textarea {
-            width: ;
-        }
-
-        #hero-banner {
-            height:360px;
-            background: #33ccff url('img/courts1.jpg') no-repeat top;
-            color: white;
-        }
-
-        #hero-banner-caption {
-            padding: 20px;
-            background-color: rgba(0,0,0,.5);
-        }
-
-        #hero-banner .title {
-            color:white;
-            font-size: 80px;
-        }
-
-        #hero-banner .subtitle {
-            color:white;
-            font-size: 28px;
-        }
-    </style>
 </head>
 
 <body>
     <section class="hero is-fullheight is-default is-bold">
         <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        JAMMS Midnight Moon Volleyball
-                    </div>
-                    <div id="navbarMenu" class="navbar-menu">
-                        <div class="navbar-end">
-                            <div class="tabs is-right">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/jammsvolleyball/">Facebook</a></li>
-                                    <li><a href="https://www.jammsmidnightmoonsaloon.com/">Bar Website</a></li>
-                                    <li><a href="friday.html">Fridays</a></li>
-                                    <li><a href="sunday.html">Sundays</a></li>
-                                    <li><a href="#rules">Rules</a></li>
-                                    <li><a href="#contact">Contact and Location</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+            <?php include('../includes/nav.php'); ?>
         </div>
         <div class="hero-body">
-         
             <div class="container has-text-centered">
                 <div id="hero-banner" class="columns is-vcentered">
                     <div class="column is-12" id="hero-banner-caption">
@@ -123,10 +32,10 @@
                 </div>
                 <div class="columns is-vcentered">
                     <div class="column is-3 is-offset-3">
-                        <h4 class="title is-4"><a href="friday.html">Friday</a></h4>
+                        <h4 class="title is-4"><a href="/leagues/friday">Friday</a></h4>
                     </div>
                     <div class="column is-3">
-                        <h4 class="title is-4"><a href="sunday.html">Sunday</a></h4>
+                        <h4 class="title is-4"><a href="/leagues/sunday">Sunday</a></h4>
                     </div>
                 </div>
                     </div>
@@ -283,13 +192,7 @@ Advanced - All the rules from Recreational, plus:
             </div>
         </div>
 
-        <footer class="footer">
-          <div class="content has-text-centered">
-            <p>
-                Copyright 2019 - Made by Ryan Rapini
-          </p>
-      </div>
-  </footer>
+        <?php include('../includes/footer.php'); ?>
     </section>
 </body>
 
