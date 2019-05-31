@@ -24,6 +24,7 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
+                                    <th>Team Captain</th>
                                     <th>Team Name</th>
                                     <th>Games Won</th>
                                     <th>Games Lost</th>
@@ -33,30 +34,36 @@
                                 <tr>
                                 <tr>
                                     <td>1</td>
+                                    <td>Bryan Lawson</td>
                                     <td>Smash or Pass</td>
                                     <td>3</td>
                                     <td>0</td>
                                 </tr>
                                     <td>2</td>
+                                    <td>Mark Anthony</td>
                                     <td>Sweet Digs</td>
                                     <td>0</td>
                                     <td>3</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
+                                    <td>Julie Ramos</td>
                                     <td>Team Gaz</td>
                                     <td>0</td>
                                     <td>0</td>
+                    
                                 </tr>
                                 <tr>
                                     <td>4</td>
+                                    <td>Paul Nawrocki</td>
                                     <td>Bumpin' Uglies</td>
                                     <td>0</td>
                                     <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Team 5</td>
+                                    <td>Kas Beris</td>
+                                    <td>Sandy Cracks</td>
                                     <td>0</td>
                                     <td>0</td>
                                 </tr>
@@ -98,7 +105,7 @@
                                     <td>May 26th</td>
                                     <td>6:30</td>
                                     <td>Sweet Digs</td>
-                                    <td>Team 5</td>
+                                    <td>Sandy Cracks</td>
                                 </tr>
                                 <tr><td colspan="5"></td></tr>
                                 <tr>
@@ -113,14 +120,14 @@
                                     <td>June 2nd</td>
                                     <td>5:30</td>
                                     <td>Team Gaz</td>
-                                    <td><strong>Team 5</strong></td>
+                                    <td><strong>Sandy Cracks</strong></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>June 2nd</td>
                                     <td>6:30</td>
                                     <td>Smash or Pass</td>
-                                    <td><strong>Team 5</strong></td>
+                                    <td><strong>Sandy Cracks</strong></td>
                                 </tr>
                             </tbody>
                         </table>
