@@ -52,7 +52,7 @@
                                     <td>3</td>
                                     <td>Nicole Knapp</td>
                                     <td>Rykon plating Inc.</td>
-                                    <td>1</td>
+                                    <td>2</td>
                                     <td>0</td>
                                     <td>6</td>
                                 </tr>
@@ -114,7 +114,7 @@
                                     <td>Team 4</td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
+                                    <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>Key Bumps</td>
@@ -129,14 +129,14 @@
                                     <td>Save The Earth</td>
                                 </tr>
                                 <tr>
-                                    <td>4</td>
+                                    <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td><strong>Key Bumps</strong></td>
                                     <td>Team 4</td>
                                 </tr>
                                 <tr>
-                                    <td>4</td>
+                                    <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>Team 5</td>
@@ -151,14 +151,14 @@
                                     <td>Team 4</td>
                                 </tr>
                                 <tr>
-                                    <td>5</td>
+                                    <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td><strong>Team 5</strong></td>
                                     <td>Key Bumps</td>
                                 </tr>
                                 <tr>
-                                    <td>5</td>
+                                    <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>Save the Earth</td>
@@ -173,14 +173,14 @@
                                     <td>Team 5</td>
                                 </tr>
                                 <tr>
-                                    <td>6</td>
+                                    <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td><strong>Save the Earth</strong></td>
                                     <td>Key Bumps</td>
                                 </tr>
                                 <tr>
-                                    <td>6</td>
+                                    <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>Team 4</td>
@@ -195,14 +195,14 @@
                                     <td>Save the Earth</td>
                                 </tr>
                                 <tr>
-                                    <td>7</td>
+                                    <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td><strong>Team 4</strong></td>
                                     <td>Key Bumps</td>
                                 </tr>
                                 <tr>
-                                    <td>7</td>
+                                    <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>Team 5</td>
@@ -217,14 +217,14 @@
                                     <td>Save the Earth</td>
                                 </tr>
                                 <tr>
-                                    <td>8</td>
+                                    <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td><strong>Team 5</strong></td>
                                     <td>Team 4</td>
                                 </tr>
                                 <tr>
-                                    <td>8</td>
+                                    <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>Key Bumps</td>
