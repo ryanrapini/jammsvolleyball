@@ -365,6 +365,9 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="column is-12">
+                        <h5 class="title is-5"><a href="index.html">Return Home</a></h5>
+                    </div>
                 </div>
             </div>
         </div>
