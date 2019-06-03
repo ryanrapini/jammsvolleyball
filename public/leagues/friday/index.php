@@ -75,7 +75,7 @@
                                 <tr>
                                     <td>6</td>
                                     <td>Chris Seabring</td>
-                                    <td>Team 6</td>
+                                    <td>Bumpin Uglies</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
@@ -164,7 +164,7 @@
                                     <td>2</td>
                                     <td><strong>SOME SPIKE IT HOT</strong></td>
                                     <td>vs</td>
-                                    <td>Team 6</td>
+                                    <td>Bumpin Uglies</td>
                                 </tr>
                                 <tr>
                                     <td></td>
@@ -199,7 +199,7 @@
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Team 6</td>
+                                    <td>Bumpin Uglies</td>
                                     <td>vs</td>
                                     <td>Rykon plating Inc.</td>
                                 </tr>
@@ -209,7 +209,7 @@
                                     <td>June 21st</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>Team 6</strong></td>
+                                    <td><strong>Bumpin Uglies</strong></td>
                                     <td>vs</td>
                                     <td><strong>SOME SPIKE IT HOT</strong></td>
                                 </tr>
@@ -218,7 +218,7 @@
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>Team 6</strong></td>
+                                    <td><strong>Bumpin Uglies</strong></td>
                                     <td>vs</td>
                                     <td>Team 7</td>
                                 </tr>
@@ -246,7 +246,7 @@
                                     <td>June 28th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td>Team 6</td>
+                                    <td>Bumpin Uglies</td>
                                     <td>vs</td>
                                     <td>Key Bumps</td>
                                 </tr>
@@ -283,7 +283,7 @@
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td>Team 6</td>
+                                    <td>Bumpin Uglies</td>
                                     <td>vs</td>
                                     <td>Save the Earth</td>
                                 </tr>
@@ -304,7 +304,7 @@
                                     <td>1</td>
                                     <td>Team 7</td>
                                     <td>vs</td>
-                                    <td><strong>Team 6</strong></td>
+                                    <td><strong>Bumpin Uglies</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
@@ -313,7 +313,7 @@
                                     <td>1</td>
                                     <td>Save the Earth</td>
                                     <td>vs</td>
-                                    <td><strong>Team 6</strong></td>
+                                    <td><strong>Bumpin Uglies</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
