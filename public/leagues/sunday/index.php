@@ -326,6 +326,8 @@
                                     <td><strong>Sweet Digs</strong></td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
+                                <tr><td colspan="7"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Play-in Game for 4th Place</strong></td></tr>
                                 <tr>
                                     <td>10</td>
                                     <td>July 21st</td>
@@ -335,6 +337,7 @@
                                     <td>vs</td>
                                     <td>5th Place Seed</td>
                                 </tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Semifinals</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
@@ -353,6 +356,7 @@
                                     <td>vs</td>
                                     <td>3rd Place Seed</td>
                                 </tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Finals!</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
