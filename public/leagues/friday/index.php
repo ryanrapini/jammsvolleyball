@@ -36,49 +36,41 @@
                                     <td>1</td>
                                     <td>Tom Rapini</td>
                                     <td>Save the Earth</td>
-                                    <td>2</td>
-                                    <td>5</td>
+                                    <td>3</td>
+                                    <td>8</td>
                                     <td>1</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Ian McBride</td>
                                     <td>Team 7</td>
-                                    <td>2</td>
-                                    <td>4</td>
+                                    <td>3</td>
+                                    <td>7</td>
                                     <td>2</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Nicole Knapp</td>
                                     <td>Rykon plating Inc.</td>
-                                    <td>3</td>
-                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>5</td>
                                     <td>7</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Dave Okeeffe</td>
                                     <td>Key Bumps</td>
+                                    <td>3</td>
                                     <td>1</td>
-                                    <td>1</td>
-                                    <td>2</td>
+                                    <td>8</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Mark Anthony</td>
                                     <td>SOME SPIKE IT HOT</td>
+                                    <td>1</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>Chris Seabring</td>
-                                    <td>Bumpin Uglies</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>3</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -160,15 +152,6 @@
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>7:30</td>
-                                    <td>2</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
-                                    <td>vs</td>
-                                    <td>Bumpin Uglies</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
                                     <td><strong>SOME SPIKE IT HOT</strong></td>
@@ -181,7 +164,7 @@
                                     <td>June 14th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td>SOME SPIKE IT HOT</td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
                                     <td>vs</td>
                                     <td>Team 7</td>
                                 </tr>
@@ -190,7 +173,7 @@
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td>Save the Earth</td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
                                     <td>vs</td>
                                     <td>Key Bumps</td>
                                 </tr>
@@ -199,7 +182,7 @@
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Bumpin Uglies</td>
+                                    <td>Save the Earth</td>
                                     <td>vs</td>
                                     <td>Rykon plating Inc.</td>
                                 </tr>
@@ -209,7 +192,7 @@
                                     <td>June 21st</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>Bumpin Uglies</strong></td>
+                                    <td><strong>Save the Earth</strong></td>
                                     <td>vs</td>
                                     <td><strong>SOME SPIKE IT HOT</strong></td>
                                 </tr>
@@ -218,25 +201,16 @@
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>Bumpin Uglies</strong></td>
+                                    <td><strong>Save the Earth</strong></td>
                                     <td>vs</td>
-                                    <td>Team 7</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td>7:30</td>
-                                    <td>2</td>
                                     <td>Key Bumps</td>
-                                    <td>vs</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Save the Earth</td>
+                                    <td>Team 7</td>
                                     <td>vs</td>
                                     <td>Rykon plating Inc.</td>
                                 </tr>
@@ -246,25 +220,34 @@
                                     <td>June 28th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td>Bumpin Uglies</td>
+                                    <td><strong>Team 7</strong></td>
                                     <td>vs</td>
-                                    <td>Key Bumps</td>
+                                    <td><strong>Key Bumps</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td>Save the Earth</td>
+                                    <td><strong>Team 7</strong></td>
                                     <td>vs</td>
-                                    <td>SOME SPIKE IT HOT</td>
+                                    <td>Save the Earth</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>7:30</td>
+                                    <td>2</td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td>vs</td>
+                                    <td><strong>Key Bumps</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Team 7</td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
                                     <td>vs</td>
                                     <td>Rykon plating Inc.</td>
                                 </tr>
@@ -274,18 +257,27 @@
                                     <td>July 5th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td>SOME SPIKE IT HOT</td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
                                     <td>vs</td>
-                                    <td>Team 7</td>
+                                    <td><strong>Save the Earth</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td>Bumpin Uglies</td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
                                     <td>vs</td>
-                                    <td>Save the Earth</td>
+                                    <td>Team 7</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>8:30</td>
+                                    <td>1</td>
+                                    <td><strong>Save the Earth</strong></td>
+                                    <td>vs</td>
+                                    <td><strong>Rykon plating Inc.</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
@@ -294,7 +286,7 @@
                                     <td>1</td>
                                     <td>Key Bumps</td>
                                     <td>vs</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td><strong>Rykon plating Inc.</strong></td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
@@ -302,27 +294,36 @@
                                     <td>July 12th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td>Team 7</td>
+                                    <td><strong>Key Bumps</strong></td>
                                     <td>vs</td>
-                                    <td><strong>Bumpin Uglies</strong></td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td>Save the Earth</td>
+                                    <td><strong>Key Bumps</strong></td>
                                     <td>vs</td>
-                                    <td><strong>Bumpin Uglies</strong></td>
+                                    <td><strong>Team 7</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Key Bumps</td>
+                                    <td>Save the Earth</td>
                                     <td>vs</td>
-                                    <td>SOME SPIKE IT HOT</td>
+                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>8:30</td>
+                                    <td>1</td>
+                                    <td><strong>Team 7</strong></td>
+                                    <td>vs</td>
+                                    <td>Rykon Plating Inc.</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr><td colspan="7"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
@@ -335,15 +336,6 @@
                                     <td>4th Seed</td>
                                     <td>vs</td>
                                     <td>5th Seed</td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td>6:30</td>
-                                    <td>2</td>
-                                    <td>3rd Seed</td>
-                                    <td>vs</td>
-                                    <td>6th Seed</td>
                                 </tr>
                                 <tr><td colspan="7" style="text-align: center;"><strong>Semifinals</strong></td></tr>
                                 <tr>
@@ -362,7 +354,7 @@
                                     <td>2</td>
                                     <td>2nd Seed</td>
                                     <td>vs</td>
-                                    <td>Winner Court 2</td>
+                                    <td>3rd Seed</td>
                                 </tr>
                                 <tr><td colspan="7" style="text-align: center;"><strong>Finals!</strong></td></tr>
                                 <tr>
