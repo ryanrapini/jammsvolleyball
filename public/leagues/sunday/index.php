@@ -45,8 +45,8 @@
                                     <td>Mark Anthony</td>
                                     <td>Sweet Digs</td>
                                     <td>3</td>
-                                    <td>3</td>
                                     <td>6</td>
+                                    <td>3</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
@@ -207,7 +207,7 @@
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>6</td>
-                                    <td>June 2nd</td>
+                                    <td>June 23rd</td>
                                     <td>4:30</td>
                                     <td>1</td>
                                     <td><strong>Pounders</strong></td>
