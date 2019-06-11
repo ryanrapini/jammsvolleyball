@@ -273,8 +273,8 @@
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>8:30</td>
-                                    <td>1</td>
+                                    <td>7:30</td>
+                                    <td>2</td>
                                     <td><strong>Save the Earth</strong></td>
                                     <td>vs</td>
                                     <td><strong>Rykon plating Inc.</strong></td>
@@ -310,8 +310,8 @@
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>8:30</td>
-                                    <td>1</td>
+                                    <td>7:30</td>
+                                    <td>2</td>
                                     <td>Save the Earth</td>
                                     <td>vs</td>
                                     <td><strong>SOME SPIKE IT HOT</strong></td>
