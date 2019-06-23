@@ -37,40 +37,40 @@
                                     <td>1</td>
                                     <td>Bryan Lawson</td>
                                     <td>Smash or Pass</td>
-                                    <td>3</td>
-                                    <td>9</td>
+                                    <td>5</td>
+                                    <td>15</td>
                                     <td>0</td>
                                 </tr>
                                     <td>2</td>
                                     <td>Mark Anthony</td>
                                     <td>Sweet Digs</td>
-                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>9</td>
                                     <td>6</td>
-                                    <td>3</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Kas Beris</td>
                                     <td>Sandy Cracks</td>
-                                    <td>3</td>
-                                    <td>2</td>
-                                    <td>7</td>
+                                    <td>5</td>
+                                    <td>5</td>
+                                    <td>10</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Paul Nawrocki</td>
                                     <td>Bumpin' Uglies</td>
+                                    <td>5</td>
                                     <td>3</td>
-                                    <td>1</td>
-                                    <td>8</td>
+                                    <td>12</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Ryan Mihalik</td>
                                     <td>Pounders</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>7</td>
                                 </tr>
                             </tbody>
                         </table>
