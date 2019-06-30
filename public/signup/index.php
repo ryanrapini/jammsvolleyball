@@ -24,6 +24,15 @@
                     </div>
 
                     <div class="column is-12">
+                        <div class="notification is-success" id="success-notification" style="display:none">
+                          You have been registered successfully! You should receieve a follow-up email within 48 hours! Please remember to like our page on <a href="https://www.facebook.com/jammsvolleyball/">facebook</a> and tell your friends about our leagues!
+                        </div>
+                        <div class="notification is-warning" id="fail-notification" style="display:none">
+                          Something went wrong while saving your registration. Your registration was not sent. Please contact <a href="mailto:ryanrapini@gmail.com">ryanrapini@gmail.com</a> for assistance.
+                        </div>
+                    </div>
+
+                    <div class="column is-12">
                         <div class="columns">
                         <?php if(empty($_GET["type"])){ ?>
                             <div class="column is-12">
@@ -190,7 +199,13 @@
                         data: values,
                         async: true,
                         callback: function(response)  {
-                          console.log(response)
+                            scroll(0,0);
+                            if (response == "true"){
+                                document.getElementById("success-notification").style.display = "block";
+                            }
+                            else {
+                                document.getElementById("fail-notification").style.display = "block";
+                            }
                         }
                     });
                 },
