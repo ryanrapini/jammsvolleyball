@@ -173,7 +173,6 @@ Advanced - All the rules from Recreational, plus:
                 </div>
             </div>
         </div>
-
         <?php include('../includes/footer.php'); ?>
     </section>
 </body>

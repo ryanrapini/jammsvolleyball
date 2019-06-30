@@ -39,42 +39,51 @@
                                     <?php include('../../includes/leagues.php'); ?>
                                 </div>
                             </div>
-                        <?php } else if ($_GET["type"] === "full") { ?>
+                        <?php } else if ($_GET["type"] === "full" || $_GET["type"] === "individual") { ?>
                             <div class="column is-4 is-offset-2">
-                                <form>
+                                <form action="#" method="post" class="js-form form">
+                                    <?php if ($_GET["type"] === "full") { ?>
+                            <h4 class="title is-4">Full Team Signup</h4>
+                        <?php } ?>
+                        <?php if ($_GET["type"] === "individual") { ?>
+                            <h4 class="title is-4">Individual Player Signup</h4>
+                        <?php } ?>
+                                    <input type="hidden" id="formtype" name="formtype" value="<?php echo($_GET["type"]); ?>">
                                     <div class="field">
                                         <label class="label">Name</label>
                                         <div class="control">
-                                            <input class="input" type="text" placeholder="Your name here">
+                                            <input class="input" type="text" placeholder="Your name here" data-validate-field="name" name="name" id="name">
                                         </div>
                                     </div>
                                     <div class="field">
                                         <label class="label">Email</label>
                                         <div class="control">
-                                            <input class="input" type="email" placeholder="Your email address here">
+                                            <input class="input" type="email" placeholder="Your email address here" data-validate-field="email" name="email" id="email">
                                         </div>
                                     </div>
                                     <div class="field">
                                         <label class="label">Phone Number</label>
                                         <div class="control">
-                                            <input class="input" type="phone" placeholder="Your phone number here">
+                                            <input class="input" type="phone" placeholder="Your phone number here" data-validate-field="phone" name="phone" id="phone">
                                         </div>
                                     </div>
-
+                                    <?php if ($_GET["type"] === "full") { ?>
                                     <div class="field">
                                         <label class="label">Team Name</label>
                                         <div class="control">
-                                            <input class="input" type="text" placeholder="Team name here">
+                                            <input class="input" type="text" placeholder="Team name here" data-validate-field="teamname" name="teamname" id="teamname">
                                         </div>
                                     </div>
+                                    <?php } ?>
 
                                     <div class="field">
                                         <label class="label">Day of the Week</label>
                                         <div class="select">
-                                          <select>
-                                            <option>Wednesday</option>
-                                            <option>Friday</option>
-                                            <option>Sunday</option>
+                                          <select id="day_select" onchange="set_players()" data-validate-field="weekday" name="weekday">
+                                            <option value="" selected disabled>Please Choose a Day</option>
+                                            <option value="wed">Wednesday</option>
+                                            <option value="fri">Friday</option>
+                                            <option value="sun">Sunday</option>
                                           </select>
                                         </div>
                                     </div>
@@ -82,9 +91,10 @@
                                     <div class="field">
                                         <label class="label">Skill Level</label>
                                         <div class="select">
-                                          <select>
-                                            <option>Recreational</option>
-                                            <option>Intermediate</option>
+                                          <select name="skilllevel" data-validate-field="skilllevel">
+                                            <option value="" selected disabled>Please Choose Skill Level</option>
+                                            <option value="rec">Recreational</option>
+                                            <option value="int">Intermediate</option>
                                           </select>
                                         </div>
                                     </div>
@@ -92,18 +102,20 @@
                                     <div class="field">
                                         <label class="label">Additional Notes</label>
                                         <div class="control">
-                                            <textarea class="textarea" placeholder="Any additional questions or concerns here!"></textarea>
+                                            <textarea class="textarea" placeholder="Any additional questions or concerns here!" name="notes" id="notes"></textarea>
                                         </div>
                                     </div>
 
+                                    <?php if ($_GET["type"] === "full") { ?>
                                     <div class="field">
                                         <div class="control">
                                             <label class="checkbox">
-                                                <input type="checkbox">
-                                                I have a full team of <span id="playercount"></span> Players and I have read the <a href="/#rules" target="_blank">Rules</a>.
+                                                <input name="checkbox" type="checkbox" data-validate-field="checkbox">
+                                                I have a full team of <span id="playercount">6</span> Players and I have read the <a href="/#rules" target="_blank">Rules</a>.
                                             </label>
                                         </div>
                                     </div>
+                                    <?php } ?>
 
                                     <div class="control">
                                         <button class="button is-link">Submit</button>
@@ -111,64 +123,16 @@
 
                                 </form>
                             </div>
-                        <?php } else { ?>
-                            <div class="column is-4 is-offset-2">
-                                <form>
-                                    <div class="field">
-                                        <label class="label">Name</label>
-                                        <div class="control">
-                                            <input class="input" type="text" placeholder="Your name here">
-                                        </div>
-                                    </div>
-                                    <div class="field">
-                                        <label class="label">Email</label>
-                                        <div class="control">
-                                            <input class="input" type="email" placeholder="Your email address here">
-                                        </div>
-                                    </div>
-                                    <div class="field">
-                                        <label class="label">Phone Number</label>
-                                        <div class="control">
-                                            <input class="input" type="phone" placeholder="Your phone number here">
-                                        </div>
-                                    </div>
-
-                                    <div class="field">
-                                        <label class="label">Day of the Week</label>
-                                        <div class="select">
-                                          <select>
-                                            <option>Wednesday</option>
-                                            <option>Friday</option>
-                                            <option>Sunday</option>
-                                          </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="field">
-                                        <label class="label">Skill Level</label>
-                                        <div class="select">
-                                          <select>
-                                            <option>Recreational</option>
-                                            <option>Intermediate</option>
-                                          </select>
-                                        </div>
-                                    </div>
-                                    <div class="field">
-                                        <label class="label">Additional Notes</label>
-                                        <div class="control">
-                                            <textarea class="textarea" placeholder="Any additional questions or concerns here!"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="control">
-                                        <button class="button is-link">Submit</button>
-                                    </div>
-
-                                </form>
-                            </div>
-                        <?php } ?>
                             <div class="column is-6">
                                 <?php include('../../includes/leagues.php'); ?>
+                                <?php if ($_GET["type"] === "full") { ?>
+                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player Instead</a></h4>
+                                <?php } ?>
+                                <?php if ($_GET["type"] === "individual") { ?>
+                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team Instead</a></h4>
+                                <?php } ?>
                             </div>
+                        <?php } ?>
                         </div>
                     </div>
 
@@ -178,6 +142,61 @@
                 </div>
             </div>
         </div>
+
+        <script type="text/javascript">
+            function set_players() {
+                var weekday_select = document.getElementById("day_select");
+                var weekday = weekday_select.options[weekday_select.selectedIndex].value;
+                var players = 6;
+                if(weekday === "fri"){
+                    players = 4;
+                }
+                document.getElementById("playercount").textContent=players;
+
+            }
+
+            new window.JustValidate('.js-form', {
+                rules: {
+                    phone: {
+                        required: true,
+                        phone: true,
+                    },
+                    email: {
+                        required: true,
+                        email: true,
+                    },
+                    name: {
+                        required: true,
+                    },
+                    weekday: {
+                        required: true,
+                    },
+                    skilllevel: {
+                        required: true,
+                    },
+<?php if ($_GET["type"] === "full") { ?>
+                    teamname: {
+                        required: true,
+                    },
+                    checkbox: {
+                        required: true
+                    },
+<?php } ?>
+                },
+                submitHandler: function (form, values, ajax) {
+                    ajax({
+                        url: '/signup/submit.php',
+                        method: 'POST',
+                        data: values,
+                        async: true,
+                        callback: function(response)  {
+                          console.log(response)
+                        }
+                    });
+                },
+            });
+        </script>
+
 
         <?php include('../../includes/footer.php'); ?>
     </section>

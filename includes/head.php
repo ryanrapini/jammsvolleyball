@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="/css/bulma.min.css" />
     <link rel="stylesheet" href="/css/bulma-divider.min.css"></link>
     <link rel="stylesheet" href="/css/app.css"></link>
+    <script src="/js/just-validate.min.js"></script>
 
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', () => {
