@@ -1,5 +1,7 @@
 <?php
 
+	response(false, "Invalid form type");
+
 $safePost = filter_input_array(INPUT_POST, [
 	'formtype' => FILTER_SANITIZE_STRING,
 	'name' => FILTER_SANITIZE_STRING,
