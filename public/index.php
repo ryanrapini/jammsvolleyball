@@ -26,60 +26,42 @@
                 <div class="columns is-vcentered">
                     <div class="column is-6" id="leagues">
                         <div class="columns is-vcentered">
-                    <h3 class="title column is-12" id="schedule">
-                        Schedule and Standings
-                    </h3>
-                </div>
-                <div class="columns is-vcentered">
-                    <div class="column is-3 is-offset-3">
-                        <h4 class="title is-4"><a href="/leagues/friday">Friday</a></h4>
+                            <h3 class="title column is-12" id="schedule">
+                                Schedule and Standings
+                            </h3>
+                        </div>
+                        <div class="columns">
+                            <div class="column is-3 is-offset-3">
+                                <h4 class="title is-4"><a class="button is-medium is-link" href="/leagues/friday">Friday</a></h4>
+                            </div>
+                            <div class="column is-3">
+                                <h4 class="title is-4"><a class="button is-medium is-link" href="/leagues/sunday">Sunday</a></h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="column is-3">
-                        <h4 class="title is-4"><a href="/leagues/sunday">Sunday</a></h4>
-                    </div>
-                </div>
-                    </div>
-                    <div class="column is-6" style="font-size:18px; font-weight: 600;">
-                        <p>
-                            To sign up, please email <a href="mailto:ryanrapini@gmail.com?subject=JAMMS Volleyball League&body=Days you'd like to play [Friday, Sunday] %0d%0a %0d%0aLevel of play [Advanced, Recreational] %0d%0a %0d%0aTeam Name %0d%0a %0d%0aName/Phone Number of Captain">ryanrapini@gmail.com</a><br>
-                            Please include the following information:
-                        </p>
-                        <pre>Days you'd like to play [Friday, Sunday]
-Level of play [Advanced, Recreational]
-Team Name
-Name/Phone Number of Captain</pre>
-                        <p>
-                        You can find more details about the leagues below. 
-                        </p>
+                    <div class="column is-6">
+                        <div class="columns is-vcentered">
+                            <h3 class="title column is-12">
+                            Sign up for Leagues
+                            </h3>
+                            
+                        </div>
+                        <div class="columns">
+                            <div class="column is-6">
+                                <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team</a></h4>
+                            </div>
+                            <div class="column is-6">
+                                <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player</a></h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="is-divider"></div>
                 <div class="columns is-vcentered">
                    
                     <div class="column is-6">
-                        <h3 class="title is-3" id="schedule">
-                            Adult Sand Volleyball League Schedule
-                        </h3>
-                        <p>
-                            <ul>
-                                <li>
-                                    <h4 class="subtitle is-4">Friday - Coed 4's - $60 Per Team</h4>
-                                    Runs until <strong>July 19th - We are still taking teams!</strong><br>
-                                    Games will last 1 hour and start at either 6:30, 7:30, or 8:30<br>
-                                    Minimum of one girl on the court.<br>
-                                    Players do not need to rotate.
-                                </li>
-                                <li>
-                                    <h4 class="subtitle is-4">Sunday - Coed 6's - $90 Per Team</h4>
-                                    Runs until <strong>July 21st - We are still taking teams!</strong><br>
-                                    Games will last 1 hour and start at either 4:30, 5:30, or 6:30<br>
-                                    Minimum of two girls on the court.<br>
-                                    Players must rotate.
-                                </li>
-                            </ul>
-                            <br>
-                            
-                        </p>
+                        <?php include('../includes/leagues.php'); ?>
+                        <h4 class="title is-4"><a class="button is-medium is-link" href="/signup">Sign up today!</a></h4>
                     </div>
                     <div class="column is-5 is-offset-1">
                         <img src="/img/courts.jpg">
