@@ -71,7 +71,7 @@
                                         </div>
                                     </div>
                                     <div class="field">
-                                        <label class="label">Phone Number</label>
+                                        <label class="label">Phone Number (include area code)</label>
                                         <div class="control">
                                             <input class="input" type="phone" placeholder="Your phone number here" data-validate-field="phone" name="phone" id="phone">
                                         </div>
@@ -191,6 +191,11 @@
                         required: true
                     },
 <?php } ?>
+                },
+                messages: {
+                    phone: {
+                        phone: 'Enter a valid phone number (10 digits).'
+                    },
                 },
                 submitHandler: function (form, values, ajax) {
                     ajax({
