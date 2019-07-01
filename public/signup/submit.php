@@ -1,6 +1,6 @@
 <?php
 
-	response(false, "Invalid form type");
+require('../../config.php');
 
 $safePost = filter_input_array(INPUT_POST, [
 	'formtype' => FILTER_SANITIZE_STRING,
@@ -70,9 +70,54 @@ function response($status, $message){
 
 if ($message === "") {
 	response(false, "Failed to generate message");
-	
 }
-mail("ryanrapini@gmail.com","New Signup for JAMMS",$message);
 
-response(true, "");
+// require("../php/sendgrid/sendgrid-php.php");
+// $email = new \SendGrid\Mail\Mail();
+// $email->setFrom("mail@jammsvolleyball.com", "JAMMS Volleyball");
+// $email->setSubject("New Signup for JAMMS");
+// $email->addTo("ryanrapini@gmail.com", "Ryan Rapini");
+// $email->addContent(
+//     "text/plain", $message
+// );
+
+// $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
+// try {
+//     $response = $sendgrid->send($email);
+//     response(true, "");
+// } catch (Exception $e) {
+//     response(false, $e->getMessage());
+// }
+
+// Using Awesome https://github.com/PHPMailer/PHPMailer
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require '../php/phpmailer/src/Exception.php';
+require '../php/phpmailer/src/PHPMailer.php';
+require '../php/phpmailer/src/SMTP.php';
+
+$mail = new PHPMailer;
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.mailgun.org';                     // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = getenv('SMTP_EMAIL');   // SMTP username
+$mail->Password = getenv('SMTP_PASS');                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable encryption, only 'tls' is accepted
+
+$mail->From = 'director@jammsvolleyball.com';
+$mail->FromName = 'League Director';
+$mail->addAddress('ryanrapini@gmail.com');                 // Add a recipient
+
+$mail->WordWrap = 50;                                 // Set word wrap to 50 characters
+
+$mail->Subject = 'New Signup for JAMMS';
+$mail->Body    = $message;
+
+if(!$mail->send()) {
+	response(false, 'Mailer Error: ' . $mail->ErrorInfo);
+} else {
+    response(true, "");
+}
 

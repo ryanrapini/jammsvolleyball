@@ -204,6 +204,7 @@
                                 document.getElementById("success-notification").style.display = "block";
                             }
                             else {
+                                console.log(response);
                                 document.getElementById("fail-notification").style.display = "block";
                             }
                         }
