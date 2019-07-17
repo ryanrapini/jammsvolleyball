@@ -49,7 +49,16 @@
                                 </div>
                             </div>
                         <?php } else if ($_GET["type"] === "full" || $_GET["type"] === "individual") { ?>
-                            <div class="column is-4 is-offset-2">
+                            <div class="column is-6">
+                                <?php include('../../includes/leagues.php'); ?>
+                                <?php if ($_GET["type"] === "full") { ?>
+                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player Instead</a></h4>
+                                <?php } ?>
+                                <?php if ($_GET["type"] === "individual") { ?>
+                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team Instead</a></h4>
+                                <?php } ?>
+                            </div>
+                            <div class="column is-4 is-offset-1">
                                 <form action="#" method="post" class="js-form form">
                                     <?php if ($_GET["type"] === "full") { ?>
                             <h4 class="title is-4">Full Team Signup</h4>
@@ -132,15 +141,7 @@
 
                                 </form>
                             </div>
-                            <div class="column is-6">
-                                <?php include('../../includes/leagues.php'); ?>
-                                <?php if ($_GET["type"] === "full") { ?>
-                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player Instead</a></h4>
-                                <?php } ?>
-                                <?php if ($_GET["type"] === "individual") { ?>
-                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team Instead</a></h4>
-                                <?php } ?>
-                            </div>
+                            
                         <?php } ?>
                         </div>
                     </div>
