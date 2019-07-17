@@ -16,7 +16,7 @@
             <div class="container has-text-centered">
                 <div class="columns is-multiline">
                     <div class="column is-12">
-                        <h5 class="title is-5"><a href="index.html">Return Home</a></h5>
+                        <h5 class="title is-5"><a href="/">Return Home</a></h5>
                     </div>
                     <div class="column is-8 is-offset-2">
                         <h4 class="title is-4">Friday Standings</h4>
@@ -332,8 +332,8 @@
                                     <td>Rykon Plating Inc.</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
-                                <tr><td colspan="7" style="font-size: 36px"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
-                                <tr><td colspan="7" style="text-align: center; font-size: 24px;">Quarterfinals (Top 2 teams sit out)</td></tr>
+                                <tr><td id="playoffs" colspan="7" style="font-size: 36px"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
+                                <tr><td colspan="7" style="text-align: center; font-size: 24px;">Play-in Round</td></tr>
                                 <tr>
                                     <td>10</td>
                                     <td>July 19th</td>
@@ -395,7 +395,7 @@
                         </table>
                     </div>
                     <div class="column is-12">
-                        <h5 class="title is-5"><a href="index.html">Return Home</a></h5>
+                        <h5 class="title is-5"><a href="/">Return Home</a></h5>
                     </div>
                 </div>
             </div>

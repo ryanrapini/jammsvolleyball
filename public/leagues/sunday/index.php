@@ -16,7 +16,7 @@
             <div class="container has-text-centered">
                 <div class="columns is-multiline is-desktop">
                     <div class="column is-12">
-                        <h5 class="title is-5"><a href="index.html">Return Home</a></h5>
+                        <h5 class="title is-5"><a href="/">Return Home</a></h5>
                     </div>
                     <div class="column is-8 is-offset-2">
                         <h4 class="title is-4">Sunday Standings</h4>
@@ -370,7 +370,7 @@
                         </table>
                     </div>
                     <div class="column is-12">
-                        <h5 class="title is-5"><a href="index.html">Return Home</a></h5>
+                        <h5 class="title is-5"><a href="/">Return Home</a></h5>
                     </div>
                 </div>
             </div>
