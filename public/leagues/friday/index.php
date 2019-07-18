@@ -349,7 +349,7 @@
                                         <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
                                     </td>
                                 </tr>
-                                <tr><td></td></tr>
+                                <tr><td colspan="7"></td></tr>
                                 <tr><td colspan="7" style="text-align: center; font-size: 24px">Semifinals</td></tr>
                                 <tr>
                                     <td></td>
@@ -381,6 +381,7 @@
                                         <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
                                     </td>
                                 </tr>
+                                <tr><td colspan="7"></td></tr>
                                 <tr><td colspan="7" style="text-align: center; font-size: 24px">Finals!</td></tr>
                                 <tr>
                                     <td></td>

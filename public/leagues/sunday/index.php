@@ -29,6 +29,7 @@
                                     <th>Matches Played</th>
                                     <th>Games Won</th>
                                     <th>Games Lost</th>
+                                    <th>Win Percentage</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -37,40 +38,45 @@
                                     <td>1</td>
                                     <td>Bryan Lawson</td>
                                     <td>Smash or Pass</td>
-                                    <td>5</td>
-                                    <td>15</td>
+                                    <td>9</td>
+                                    <td>27</td>
                                     <td>0</td>
+                                    <td>100%</td>
                                 </tr>
                                     <td>2</td>
                                     <td>Mark Anthony</td>
                                     <td>Sweet Digs</td>
-                                    <td>5</td>
                                     <td>9</td>
-                                    <td>6</td>
+                                    <td>18</td>
+                                    <td>9</td>
+                                    <td>67%</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Kas Beris</td>
                                     <td>Sandy Cracks</td>
-                                    <td>5</td>
-                                    <td>5</td>
                                     <td>10</td>
+                                    <td>14</td>
+                                    <td>16</td>
+                                    <td>47%</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Paul Nawrocki</td>
-                                    <td>Bumpin' Uglies</td>
-                                    <td>5</td>
-                                    <td>3</td>
-                                    <td>12</td>
+                                    <td>Ryan Mihalik</td>
+                                    <td>Pounders</td>
+                                    <td>7</td>
+                                    <td>4</td>
+                                    <td>17</td>
+                                    <td>19%</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Ryan Mihalik</td>
-                                    <td>Pounders</td>
+                                    <td>Paul Nawrocki</td>
+                                    <td>Bumpin' Uglies</td>
+                                    <td>9</td>
                                     <td>3</td>
-                                    <td>2</td>
-                                    <td>7</td>
+                                    <td>24</td>
+                                    <td>11%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -326,37 +332,57 @@
                                     <td><strong>Sweet Digs</strong></td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
-                                <tr><td colspan="7"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
-                                <tr><td colspan="7" style="text-align: center;"><strong>Play-in Game for 4th Place</strong></td></tr>
+                                <tr><td id="playoffs" colspan="7" style="font-size: 36px"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
+                                <tr><td colspan="7" style="text-align: center; font-size: 24px;">Play-in Round</td></tr>
                                 <tr>
                                     <td>10</td>
                                     <td>July 21st</td>
                                     <td>4:30</td>
                                     <td>1</td>
-                                    <td>4th Place Seed</td>
+                                    <td>Pounders</td>
                                     <td>vs</td>
-                                    <td>5th Place Seed</td>
+                                    <td>Bumpin' Uglies</td>
                                 </tr>
-                                <tr><td colspan="7" style="text-align: center;"><strong>Semifinals</strong></td></tr>
+                                <tr>
+                                    <td colspan="4"></td>
+                                    <td colspan="3">
+                                        <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
+                                    </td>
+                                </tr>
+                                <tr><td colspan="7"></td></tr>
+                                <tr><td colspan="7" style="text-align: center; font-size: 24px">Semifinals</td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>5:30</td>
                                     <td>1</td>
-                                    <td>Winner of 4:30</td>
+                                    <td>Smash or Pass</td>
                                     <td>vs</td>
-                                    <td>1st Place Seed</td>
+                                    <td>Winner Court 1</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4"></td>
+                                    <td colspan="3">
+                                        <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>5:30</td>
                                     <td>2</td>
-                                    <td>2nd Place Seed</td>
+                                    <td>Sweet Digs</td>
                                     <td>vs</td>
-                                    <td>3rd Place Seed</td>
+                                    <td>Sandy Cracks</td>
                                 </tr>
-                                <tr><td colspan="7" style="text-align: center;"><strong>Finals!</strong></td></tr>
+                                <tr>
+                                    <td colspan="4"></td>
+                                    <td colspan="3">
+                                        <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
+                                    </td>
+                                </tr>
+                                <tr><td colspan="7"></td></tr>
+                                <tr><td colspan="7" style="text-align: center; font-size: 24px">Finals!</td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
