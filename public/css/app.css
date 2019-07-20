@@ -26,6 +26,7 @@ h4 {
 }
 
 #hero-banner {
+  height: 360px;
   background: #33ccff url("/img/courts1.jpg") no-repeat top;
   color: white;
 }
