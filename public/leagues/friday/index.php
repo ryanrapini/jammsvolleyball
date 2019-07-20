@@ -16,7 +16,7 @@
             <div class="container has-text-centered">
                 <div class="columns is-multiline">
                     <div class="column is-12">
-                        <h5 class="title is-5"><a href="/">Return Home</a></h5>
+                        <h5 class="title is-5"><a href="index.html">Return Home</a></h5>
                     </div>
                     <div class="column is-8 is-offset-2">
                         <h4 class="title is-4">Friday Standings</h4>
@@ -29,54 +29,48 @@
                                     <th>Matches Played</th>
                                     <th>Games Won</th>
                                     <th>Games Lost</th>
-                                    <th>Winrate</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Mark Anthony</td>
-                                    <td>SOME SPIKE IT HOT</td>
-                                    <td>7</td>
-                                    <td>17</td>
-                                    <td>4</td>
-                                    <td>81</td>
+                                    <td>Tom Rapini</td>
+                                    <td>Save the Earth</td>
+                                    <td>3</td>
+                                    <td>8</td>
+                                    <td>1</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Ian McBride</td>
                                     <td>Team 7</td>
-                                    <td>10</td>
-                                    <td>24</td>
-                                    <td>6</td>
-                                    <td>80%</td>
-                                </tr>
-                                <tr>
                                     <td>3</td>
-                                    <td>Tom Rapini</td>
-                                    <td>Save the Earth</td>
-                                    <td>8</td>
-                                    <td>14</td>
-                                    <td>10</td>
-                                    <td>58%</td>
+                                    <td>7</td>
+                                    <td>2</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Nicole Knapp</td>
                                     <td>Rykon plating Inc.</td>
-                                    <td>8</td>
+                                    <td>4</td>
+                                    <td>5</td>
                                     <td>7</td>
-                                    <td>17</td>
-                                    <td>29%</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Dave Okeeffe</td>
                                     <td>Key Bumps</td>
-                                    <td>9</td>
+                                    <td>3</td>
                                     <td>1</td>
-                                    <td>26</td>
-                                    <td>4%</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Mark Anthony</td>
+                                    <td>SOME SPIKE IT HOT</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>3</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -332,57 +326,37 @@
                                     <td>Rykon Plating Inc.</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
-                                <tr><td id="playoffs" colspan="7" style="font-size: 36px"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
-                                <tr><td colspan="7" style="text-align: center; font-size: 24px;">Play-in Round</td></tr>
+                                <tr><td colspan="7"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Quarterfinals (Top 2 teams sit out)</strong></td></tr>
                                 <tr>
                                     <td>10</td>
                                     <td>July 19th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td>4th Seed</td>
                                     <td>vs</td>
-                                    <td>Key Bumps</td>
+                                    <td>5th Seed</td>
                                 </tr>
-                                <tr>
-                                    <td colspan="4"></td>
-                                    <td colspan="3">
-                                        <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
-                                    </td>
-                                </tr>
-                                <tr><td colspan="7"></td></tr>
-                                <tr><td colspan="7" style="text-align: center; font-size: 24px">Semifinals</td></tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Semifinals</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td>SOME SPIKE IT HOT</td>
+                                    <td>1st Seed</td>
                                     <td>vs</td>
                                     <td>Winner Court 1</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="4"></td>
-                                    <td colspan="3">
-                                        <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>2</td>
-                                    <td>Team 7</td>
+                                    <td>2nd Seed</td>
                                     <td>vs</td>
-                                    <td>Save the Earth</td>
+                                    <td>3rd Seed</td>
                                 </tr>
-                                <tr>
-                                    <td colspan="4"></td>
-                                    <td colspan="3">
-                                        <strong>WINNING TEAM PLAYS AGAIN RIGHT AFTER</strong>
-                                    </td>
-                                </tr>
-                                <tr><td colspan="7"></td></tr>
-                                <tr><td colspan="7" style="text-align: center; font-size: 24px">Finals!</td></tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Finals!</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
@@ -396,7 +370,7 @@
                         </table>
                     </div>
                     <div class="column is-12">
-                        <h5 class="title is-5"><a href="/">Return Home</a></h5>
+                        <h5 class="title is-5"><a href="index.html">Return Home</a></h5>
                     </div>
                 </div>
             </div>
