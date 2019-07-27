@@ -99,7 +99,6 @@
                                         <div class="select">
                                           <select id="day_select" onchange="set_players()" data-validate-field="weekday" name="weekday">
                                             <option value="" selected disabled>Please Choose a Day</option>
-                                            <option value="wed">Wednesday</option>
                                             <option value="fri">Friday</option>
                                             <option value="sun">Sunday</option>
                                           </select>
