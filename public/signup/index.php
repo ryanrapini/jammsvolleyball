@@ -50,13 +50,17 @@
                             </div>
                         <?php } else if ($_GET["type"] === "full" || $_GET["type"] === "individual") { ?>
                             <div class="column is-6">
-                                <?php include('../../includes/leagues.php'); ?>
                                 <?php if ($_GET["type"] === "full") { ?>
+                                    <p>You are currently registering a team. If you are an individual player click here:</p>
                                     <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player Instead</a></h4>
                                 <?php } ?>
                                 <?php if ($_GET["type"] === "individual") { ?>
+                                    <p>You are currently registering as an individual. If you already have a full team click here:</p>
                                     <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team Instead</a></h4>
                                 <?php } ?>
+                                <br>
+                                <br>
+                                <?php include('../../includes/leagues.php'); ?>
                             </div>
                             <div class="column is-4 is-offset-1">
                                 <form action="#" method="post" class="js-form form">
