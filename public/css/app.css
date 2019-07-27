@@ -27,12 +27,13 @@ h4 {
 
 #hero-banner {
   height: 360px;
-  background: #33ccff url("/img/courts1.jpg") no-repeat top;
+  background: #33ccff url("/img/banner.jpg") no-repeat center;
   color: white;
 }
 
 #hero-banner-caption {
   padding: 20px;
+  margin-bottom: 100px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
