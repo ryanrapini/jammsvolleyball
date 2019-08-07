@@ -384,25 +384,16 @@
                                     <td>September 20th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>Michoacan</strong></td>
+                                    <td><strong>Take Two</strong></td>
                                     <td>vs</td>
                                     <td><strong>The guinea pig hand grenades</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>6:30</td>
-                                    <td>2</td>
-                                    <td><strong>Counterspike</strong></td>
-                                    <td>vs</td>
-                                    <td><strong>Take Two</strong></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>Counterspike</strong></td>
+                                    <td>Michoacan</td>
                                     <td>vs</td>
                                     <td><strong>The guinea pig hand grenades</strong></td>
                                 </tr>
@@ -420,7 +411,7 @@
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td><strong>Dawg Pound</strong></td>
+                                    <td>Dawg Pound</td>
                                     <td>vs</td>
                                     <td>Tequilas</td>
                                 </tr>
