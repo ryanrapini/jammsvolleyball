@@ -92,9 +92,6 @@
                     </div>
                     <div class="column is-10 is-offset-1">
                         <h4 class="title is-4">Sunday Schedule</h4>
-                        <h5 class="title is-5">
-                            A Full Schedule will be published August 8th.
-                        </h5>
                         <p>For any issues with leagues including:<br> Forfeits, game reschedules, help finding substitutes, or other scheduling requests, please contact <pre>ryanrapini@gmail.com</pre></p>
                         <table class="table is-fullwidth">
                             <thead>
