@@ -3,34 +3,35 @@
 require('../../config.php');
 
 $safePost = filter_input_array(INPUT_POST, [
+	'formtype' => FILTER_SANITIZE_STRING,
 	'name' => FILTER_SANITIZE_STRING,
 	'email' => FILTER_SANITIZE_EMAIL,
 	'phone' => FILTER_SANITIZE_STRING,
+	'teamname' => FILTER_SANITIZE_STRING,
+	'weekday' => FILTER_SANITIZE_STRING,
 	'skilllevel' => FILTER_SANITIZE_STRING,
-	'interest_leagues' => FILTER_VALIDATE_BOOLEAN,
-	'interest_tournament' => FILTER_VALIDATE_BOOLEAN,
-	'interest_sub' => FILTER_VALIDATE_BOOLEAN,
+	'notes' => FILTER_SANITIZE_STRING,
+	'checkbox' => FILTER_VALIDATE_BOOLEAN ,
+
 ]);
 
-$message = interestform($safePost);
+if(empty($safePost["formtype"])){
+	response(false, "Invalid form type");
+}
 
-function interestform($safePost){
-	$message = "New Future Player Signup:\n\n";
-	$message .= "Player Name: " . $safePost['name'] . "\n";
-	$message .= "Player Email: " . $safePost['email'] . "\n";
-	$message .= "Player Phone: " . $safePost['phone'] . "\n";
-	$message .= "Skill Level: " . $safePost['skilllevel'] . "\n";
-	$message .= "Interests: " .  "\n";
-	if($safePost['interest_leagues']){
-		$message .= "Future Leagues" .  "\n";
+$message = "";
+
+if($_POST["formtype"] === "full"){
+	if($safePost['checkbox'] != 1){
+		response(false, "You must check the box");
 	}
-	if($safePost['interest_tournament']){
-		$message .= "Future Tournaments" .  "\n";
-	}
-	if($safePost['interest_sub']){
-		$message .= "Subbing" .  "\n";
-	}
-	return $message;
+	$message = fullform($safePost);
+} 
+else if($_POST["formtype"] === "individual"){
+	$message = individualform($safePost);
+} 
+else {
+	response(false, "Invalid form type");
 }
 
 function fullform($safePost) {

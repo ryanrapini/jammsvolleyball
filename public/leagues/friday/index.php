@@ -36,49 +36,67 @@
                                     <td>1</td>
                                     <td>Tom Rapini</td>
                                     <td>Save the Earth</td>
-                                    <td>3</td>
-                                    <td>8</td>
-                                    <td>1</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Ian McBride</td>
-                                    <td>Team 7</td>
-                                    <td>3</td>
-                                    <td>7</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Nicole Knapp</td>
-                                    <td>Rykon plating Inc.</td>
-                                    <td>4</td>
-                                    <td>5</td>
-                                    <td>7</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Dave Okeeffe</td>
-                                    <td>Key Bumps</td>
-                                    <td>3</td>
-                                    <td>1</td>
-                                    <td>8</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Mark Anthony</td>
-                                    <td>SOME SPIKE IT HOT</td>
-                                    <td>1</td>
                                     <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Rachel Goodwin</td>
+                                    <td>Take Two</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
                                     <td>3</td>
+                                    <td>Ryan Rapini</td>
+                                    <td>Counterspike</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Nicole Knapp</td>
+                                    <td>Dawg Pound</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Claudia</td>
+                                    <td>Tequilas</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Juanita</td>
+                                    <td>Michoacan</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Dave O'keeffe</td>
+                                    <td>The guinea pig hand grenades</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                     <div class="column is-10 is-offset-1">
                         <h4 class="title is-4">Friday Schedule</h4>
+                        <h5 class="title is-5">
+                            A Full Schedule will be published August 6th.
+                        </h5>
                         <p>For any issues with leagues including:<br> Forfeits, game reschedules, help finding substitutes, or other scheduling requests, please contact <pre>ryanrapini@gmail.com</pre></p>
-                        <p>
                         <table class="table is-fullwidth">
                             <thead>
                                 <tr>
@@ -94,218 +112,290 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>May 17th</td>
+                                    <td>July 26th</td>
                                     <td>6:30</td>
                                     <td>1</td>
                                     <td>Save the Earth</td>
                                     <td>vs</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td>Take Two</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>May 24th</td>
+                                    <td>August 2nd</td>
+                                    <td>6:30</td>
+                                    <td>1</td>
+                                    <td>Dawg Pound</td>
+                                    <td>vs</td>
+                                    <td>Save the Earth</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>7:30</td>
+                                    <td>1</td>
+                                    <td><strong>Michoacan</strong></td>
+                                    <td>vs</td>
+                                    <td>Tequilas</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td><strong>Michoacan</strong></td>
                                     <td>vs</td>
-                                    <td>Team 7</td>
+                                    <td>Take Two</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>May 31st</td>
-                                    <td>7:30</td>
+                                    <td>August 9th</td>
+                                    <td>6:30</td>
                                     <td>1</td>
                                     <td>Save The Earth</td>
                                     <td>vs</td>
-                                    <td>Team 7</td>
+                                    <td>Michoacan</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>7:30</td>
+                                    <td>1</td>
+                                    <td>Take Two</td>
+                                    <td>vs</td>
+                                    <td><strong>Tequilas</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Key Bumps</td>
+                                    <td>The guinea pig hand grenades</td>
                                     <td>vs</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td><strong>Tequilas</strong></td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>June 7th</td>
+                                    <td>August 16th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>Key Bumps</strong></td>
+                                    <td>Save the Earth</td>
                                     <td>vs</td>
-                                    <td>Save The Earth</td>
+                                    <td>Michoacan</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>Key Bumps</strong></td>
+                                    <td><strong>Dawg Pound</strong></td>
                                     <td>vs</td>
-                                    <td>Team 7</td>
+                                    <td>Tequilas</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>SOME SPIKE IT HOT</td>
+                                    <td><strong>Dawg Pound</strong></td>
                                     <td>vs</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td>The guinea pig hand grenades</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>June 14th</td>
+                                    <td>August 23rd</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>Save the Earth</strong></td>
+                                    <td><strong>The guinea pig hand grenades</strong></td>
                                     <td>vs</td>
-                                    <td>Key Bumps</td>
+                                    <td>Michoacan</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>6:30</td>
+                                    <td>2</td>
+                                    <td>Save the Earth</td>
+                                    <td>vs</td>
+                                    <td><strong>Tequilas</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>Save the Earth</strong></td>
+                                    <td><strong>The guinea pig hand grenades</strong></td>
                                     <td>vs</td>
-                                    <td><strong>Team 7</strong></td>
+                                    <td>Counterspike</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>7:30</td>
+                                    <td>2</td>
+                                    <td><strong>Take Two</strong></td>
+                                    <td>vs</td>
+                                    <td><strong>Tequilas</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td><strong>Team 7</strong></td>
+                                    <td><strong>Take Two</strong></td>
                                     <td>vs</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td>Dawg Pound</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>6</td>
-                                    <td>June 21st</td>
+                                    <td>August 30th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td><strong>Save the Earth</strong></td>
                                     <td>vs</td>
-                                    <td>Team 7</td>
+                                    <td>The guinea pig hand grenades</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>6:30</td>
+                                    <td>2</td>
+                                    <td><strong>Dawg Pound</strong></td>
+                                    <td>vs</td>
+                                    <td>Take Two</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td>Tequilas</td>
                                     <td>vs</td>
-                                    <td>Key Bumps</td>
+                                    <td><strong>Counterspike</strong></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>7:30</td>
+                                    <td>2</td>
+                                    <td><strong>Save the Earth</strong></td>
+                                    <td>vs</td>
+                                    <td><strong>Dawg Pound</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Save the Earth</td>
+                                    <td>Michoacan</td>
                                     <td>vs</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td><strong>Counterspike</strong></td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>7</td>
-                                    <td>June 28th</td>
+                                    <td>September 6th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>Team 7</strong></td>
+                                    <td>Save the Earth</td>
                                     <td>vs</td>
-                                    <td><strong>Key Bumps</strong></td>
+                                    <td><strong>Counterspike</strong></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>6:30</td>
+                                    <td>2</td>
+                                    <td>Take Two</td>
+                                    <td>vs</td>
+                                    <td>The guinea pig hand grenades</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>Team 7</strong></td>
+                                    <td><strong>Dawg Pound</strong></td>
                                     <td>vs</td>
-                                    <td>Save the Earth</td>
+                                    <td><strong>Counterspike</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>2</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td><strong>Michoacan</strong></td>
                                     <td>vs</td>
-                                    <td><strong>Key Bumps</strong></td>
+                                    <td>Tequilas</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td><strong>Michoacan</strong></td>
                                     <td>vs</td>
-                                    <td>Rykon plating Inc.</td>
+                                    <td><strong>Dawg Pound</strong></td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>8</td>
-                                    <td>July 5th</td>
+                                    <td>September 13th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td>Michoacan</td>
                                     <td>vs</td>
-                                    <td><strong>Save the Earth</strong></td>
+                                    <td>Take Two</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>6:30</td>
+                                    <td>2</td>
+                                    <td><strong>The guinea pig hand grenades</strong></td>
+                                    <td>vs</td>
+                                    <td>Dawg Pound</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td><strong>The guinea pig hand grenades</strong></td>
                                     <td>vs</td>
-                                    <td>Team 7</td>
+                                    <td>Save the Earth</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>2</td>
-                                    <td><strong>Save the Earth</strong></td>
+                                    <td>Counterspike</td>
                                     <td>vs</td>
-                                    <td><strong>Rykon plating Inc.</strong></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td>8:30</td>
-                                    <td>1</td>
-                                    <td>Key Bumps</td>
-                                    <td>vs</td>
-                                    <td><strong>Rykon plating Inc.</strong></td>
+                                    <td>Tequilas</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr>
                                     <td>9</td>
-                                    <td>July 12th</td>
+                                    <td>September 20th</td>
                                     <td>6:30</td>
                                     <td>1</td>
-                                    <td><strong>Key Bumps</strong></td>
+                                    <td><strong>Take Two</strong></td>
                                     <td>vs</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td><strong>The guinea pig hand grenades</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td><strong>Key Bumps</strong></td>
+                                    <td>Michoacan</td>
                                     <td>vs</td>
-                                    <td><strong>Team 7</strong></td>
+                                    <td><strong>The guinea pig hand grenades</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
@@ -314,57 +404,75 @@
                                     <td>2</td>
                                     <td>Save the Earth</td>
                                     <td>vs</td>
-                                    <td><strong>SOME SPIKE IT HOT</strong></td>
+                                    <td><strong>Take Two</strong></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td><strong>Team 7</strong></td>
+                                    <td>Dawg Pound</td>
                                     <td>vs</td>
-                                    <td>Rykon Plating Inc.</td>
+                                    <td>Tequilas</td>
                                 </tr>
                                 <tr><td colspan="7"></td></tr>
                                 <tr><td colspan="7"><strong>PLAYOFFS SCHEDULE (Single Elimination, Best of Three)</strong></td></tr>
-                                <tr><td colspan="7" style="text-align: center;"><strong>Quarterfinals (Top 2 teams sit out)</strong></td></tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Quarterfinals (Top seed gets a bye)</strong></td></tr>
                                 <tr>
                                     <td>10</td>
-                                    <td>July 19th</td>
+                                    <td>September 27th</td>
                                     <td>6:30</td>
                                     <td>1</td>
                                     <td>4th Seed</td>
                                     <td>vs</td>
                                     <td>5th Seed</td>
                                 </tr>
-                                <tr><td colspan="7" style="text-align: center;"><strong>Semifinals</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>1</td>
-                                    <td>1st Seed</td>
+                                    <td>2nd Seed</td>
                                     <td>vs</td>
-                                    <td>Winner Court 1</td>
+                                    <td>7th Seed</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>7:30</td>
                                     <td>2</td>
-                                    <td>2nd Seed</td>
-                                    <td>vs</td>
                                     <td>3rd Seed</td>
+                                    <td>vs</td>
+                                    <td>6th Seed</td>
                                 </tr>
-                                <tr><td colspan="7" style="text-align: center;"><strong>Finals!</strong></td></tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Semifinals</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td>8:30</td>
                                     <td>1</td>
-                                    <td>Winner Court 1</td>
+                                    <td>1st Seed</td>
                                     <td>vs</td>
-                                    <td>Winner Court 2</td>
+                                    <td>Winner Court 1 6:30</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>8:30</td>
+                                    <td>2</td>
+                                    <td>Winner Court 1 7:30</td>
+                                    <td>vs</td>
+                                    <td>Winner Court 2 7:30</td>
+                                </tr>
+                                <tr><td colspan="7" style="text-align: center;"><strong>Finals!</strong></td></tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>9:30</td>
+                                    <td>1</td>
+                                    <td>Winner Court 1 8:30</td>
+                                    <td>vs</td>
+                                    <td>Winner Court 2 8:30</td>
                                 </tr>
                             </tbody>
                         </table>

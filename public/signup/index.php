@@ -20,12 +20,12 @@
                     </div>
 
                     <div class="column is-12">
-                        <h3 class="title is-3">Sign up to Play!</h3>
+                        <h3 class="title is-3">Registration is closed!</h3>
                     </div>
 
                     <div class="column is-12">
                         <div class="notification is-success" id="success-notification" style="display:none">
-                          You have been registered successfully! You should receieve a follow-up email within 48 hours! Please remember to like our page on <a href="https://www.facebook.com/jammsvolleyball/">facebook</a> and tell your friends about our leagues!
+                          You have been added successfully! You should receieve a follow-up email within 48 hours! Please remember to like our page on <a href="https://www.facebook.com/jammsvolleyball/">facebook</a> and tell your friends about our leagues!
                         </div>
                         <div class="notification is-warning" id="fail-notification" style="display:none">
                           Something went wrong while saving your registration. Your registration was not sent. Please contact <a href="mailto:ryanrapini@gmail.com">ryanrapini@gmail.com</a> for assistance.
@@ -33,32 +33,16 @@
                     </div>
 
                     <div class="column is-12">
-                        <div class="columns">
-                        <?php if(empty($_GET["type"])){ ?>
-                            <div class="column is-12">
-                                <div class="columns">
-                                    <div class="column is-6">
-                                        <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team</a></h4>
-                                    </div>
-                                    <div class="column is-6">
-                                        <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player</a></h4>
-                                    </div>
-                                </div>
-                                <div class="column is-6 is-offset-3">
-                                    <?php include('../../includes/leagues.php'); ?>
-                                </div>
-                            </div>
-                        <?php } else if ($_GET["type"] === "full" || $_GET["type"] === "individual") { ?>
-                            <div class="column is-4 is-offset-2">
+                    	<div>We are not accepting signups at this time, sorry!</div>
+
+                    	<div>If you'd still like to play, you can fill out this form below to receive information about future events, or to be contacted when existing teams need a sub.</div>
+                    </div>
+
+                    <div class="column is-12">
+                        <div class="columns is-centered">
+                            <div class="column is-half-desktop">
                                 <form action="#" method="post" class="js-form form">
-                                    <?php if ($_GET["type"] === "full") { ?>
-                            <h4 class="title is-4">Full Team Signup</h4>
-                        <?php } ?>
-                        <?php if ($_GET["type"] === "individual") { ?>
-                            <h4 class="title is-4">Individual Player Signup</h4>
-                        <?php } ?>
-                                    <input type="hidden" id="formtype" name="formtype" value="<?php echo($_GET["type"]); ?>">
-                                    <div class="field">
+                                	<div class="field">
                                         <label class="label">Name</label>
                                         <div class="control">
                                             <input class="input" type="text" placeholder="Your name here" data-validate-field="name" name="name" id="name">
@@ -76,72 +60,39 @@
                                             <input class="input" type="phone" placeholder="Your phone number here" data-validate-field="phone" name="phone" id="phone">
                                         </div>
                                     </div>
-                                    <?php if ($_GET["type"] === "full") { ?>
-                                    <div class="field">
-                                        <label class="label">Team Name</label>
-                                        <div class="control">
-                                            <input class="input" type="text" placeholder="Team name here" data-validate-field="teamname" name="teamname" id="teamname">
-                                        </div>
-                                    </div>
-                                    <?php } ?>
-
-                                    <div class="field">
-                                        <label class="label">Day of the Week</label>
-                                        <div class="select">
-                                          <select id="day_select" onchange="set_players()" data-validate-field="weekday" name="weekday">
-                                            <option value="" selected disabled>Please Choose a Day</option>
-                                            <option value="wed">Wednesday</option>
-                                            <option value="fri">Friday</option>
-                                            <option value="sun">Sunday</option>
-                                          </select>
-                                        </div>
-                                    </div>
-
                                     <div class="field">
                                         <label class="label">Skill Level</label>
                                         <div class="select">
                                           <select name="skilllevel" data-validate-field="skilllevel">
-                                            <option value="" selected disabled>Please Choose Skill Level</option>
+                                            <option value="" selected disabled>Please Estimate your Skill Level</option>
                                             <option value="rec">Recreational</option>
                                             <option value="int">Intermediate</option>
+                                            <option value="adv">Advanced</option>
                                           </select>
                                         </div>
                                     </div>
-
                                     <div class="field">
-                                        <label class="label">Additional Notes</label>
-                                        <div class="control">
-                                            <textarea class="textarea" placeholder="Any additional questions or concerns here!" name="notes" id="notes"></textarea>
-                                        </div>
+                                        <label class="label">Contact Me About:</label>
+                                        <label class="checkbox">
+											<input type="checkbox" name="interest_leagues" value="league">
+											Upcoming Leagues
+										</label>
+                                        <br>
+                                        <label class="checkbox">
+											<input type="checkbox" name="interest_tournament" value="tournament">
+											Upcoming Tournaments
+										</label>
+                                        <br>
+                                        <label class="checkbox">
+											<input type="checkbox" name="interest_sub" value="sub">
+											When subs are needed
+										</label>
                                     </div>
-
-                                    <?php if ($_GET["type"] === "full") { ?>
-                                    <div class="field">
-                                        <div class="control">
-                                            <label class="checkbox">
-                                                <input name="checkbox" type="checkbox" data-validate-field="checkbox">
-                                                I have a full team of <span id="playercount">6</span> Players and I have read the <a href="/#rules" target="_blank">Rules</a>.
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <?php } ?>
-
                                     <div class="control">
                                         <button class="button is-link">Submit</button>
                                     </div>
-
                                 </form>
                             </div>
-                            <div class="column is-6">
-                                <?php include('../../includes/leagues.php'); ?>
-                                <?php if ($_GET["type"] === "full") { ?>
-                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player Instead</a></h4>
-                                <?php } ?>
-                                <?php if ($_GET["type"] === "individual") { ?>
-                                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team Instead</a></h4>
-                                <?php } ?>
-                            </div>
-                        <?php } ?>
                         </div>
                     </div>
 
@@ -177,20 +128,9 @@
                     name: {
                         required: true,
                     },
-                    weekday: {
-                        required: true,
-                    },
                     skilllevel: {
                         required: true,
                     },
-<?php if ($_GET["type"] === "full") { ?>
-                    teamname: {
-                        required: true,
-                    },
-                    checkbox: {
-                        required: true
-                    },
-<?php } ?>
                 },
                 messages: {
                     phone: {
