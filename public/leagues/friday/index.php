@@ -29,64 +29,72 @@
                                     <th>Matches Played</th>
                                     <th>Games Won</th>
                                     <th>Games Lost</th>
+                                    <th>Win Percentage</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Tom Rapini</td>
-                                    <td>Save the Earth</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>Juanita</td>
+                                    <td>Michoacan</td>
+                                    <td>6</td>
+                                    <td>15</td>
+                                    <td>3</td>
+                                    <td>83%</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Rachel Goodwin</td>
                                     <td>Take Two</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>6</td>
+                                    <td>14</td>
+                                    <td>4</td>
+                                    <td>78%</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Ryan Rapini</td>
-                                    <td>Counterspike</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>Claudia</td>
+                                    <td>Tequilas</td>
+                                    <td>7</td>
+                                    <td>11</td>
+                                    <td>10</td>
+                                    <td>52%</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Nicole Knapp</td>
-                                    <td>Dawg Pound</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>Tom Rapini</td>
+                                    <td>Save the Earth</td>
+                                    <td>7</td>
+                                    <td>9</td>
+                                    <td>12</td>
+                                    <td>43%</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Claudia</td>
-                                    <td>Tequilas</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>Nicole Knapp</td>
+                                    <td>Dawg Pound</td>
+                                    <td>6</td>
+                                    <td>4</td>
+                                    <td>14</td>
+                                    <td>22%</td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
-                                    <td>Juanita</td>
-                                    <td>Michoacan</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>Dave O'keeffe</td>
+                                    <td>The guinea pig hand grenades</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>7</td>
+                                    <td>22%</td>
                                 </tr>
                                 <tr>
                                     <td>7</td>
-                                    <td>Dave O'keeffe</td>
-                                    <td>The guinea pig hand grenades</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>Ryan Rapini</td>
+                                    <td>Counterspike</td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>8</td>
+                                    <td>11%</td>
                                 </tr>
                             </tbody>
                         </table>
