@@ -38,10 +38,10 @@
                                     <td>1</td>
                                     <td>Heather Sutyak</td>
                                     <td>Good Sets</td>
-                                    <td>5</td>
-                                    <td>14</td>
+                                    <td>6</td>
+                                    <td>17</td>
                                     <td>1</td>
-                                    <td>93%</td>
+                                    <td>94%</td>
                                 </tr>
                                     <td>2</td>
                                     <td>Jay Frey</td>
@@ -82,10 +82,10 @@
                                     <td>6</td>
                                     <td>Paul Nawrocki</td>
                                     <td>Bumpin' Uglies</td>
-                                    <td>6</td>
+                                    <td>7</td>
                                     <td>4</td>
-                                    <td>14</td>
-                                    <td>22%</td>
+                                    <td>17</td>
+                                    <td>19%</td>
                                 </tr>
                             </tbody>
                         </table>
