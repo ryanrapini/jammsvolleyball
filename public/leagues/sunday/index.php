@@ -38,54 +38,54 @@
                                     <td>1</td>
                                     <td>Heather Sutyak</td>
                                     <td>Good Sets</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td></td>
+                                    <td>5</td>
+                                    <td>14</td>
+                                    <td>1</td>
+                                    <td>93%</td>
                                 </tr>
                                     <td>2</td>
-                                    <td>Bethany Anthony</td>
-                                    <td>Sweet Digs</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td></td>
+                                    <td>Jay Frey</td>
+                                    <td>Smashed Potatoes</td>
+                                    <td>6</td>
+                                    <td>11</td>
+                                    <td>7</td>
+                                    <td>61%</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Jay Frey</td>
-                                    <td>Smashed Potatoes</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td></td>
+                                    <td>Lyndsey Brandt</td>
+                                    <td>I'd Hit That</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>7</td>
+                                    <td>53%</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
-                                    <td>Paul Nawrocki</td>
-                                    <td>Bumpin' Uglies</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td></td>
+                                    <td>Bethany Anthony</td>
+                                    <td>Sweet Digs</td>
+                                    <td>6</td>
+                                    <td>8</td>
+                                    <td>10</td>
+                                    <td>44%</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Jake Hampton</td>
                                     <td>Pounders</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td></td>
+                                    <td>4</td>
+                                    <td>3</td>
+                                    <td>9</td>
+                                    <td>25%</td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
-                                    <td>Lyndsey Brandt</td>
-                                    <td>I'd Hit That</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td></td>
+                                    <td>Paul Nawrocki</td>
+                                    <td>Bumpin' Uglies</td>
+                                    <td>6</td>
+                                    <td>4</td>
+                                    <td>14</td>
+                                    <td>22%</td>
                                 </tr>
                             </tbody>
                         </table>
