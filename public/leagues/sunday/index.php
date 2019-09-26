@@ -38,54 +38,54 @@
                                     <td>1</td>
                                     <td>Heather Sutyak</td>
                                     <td>Good Sets</td>
-                                    <td>6</td>
-                                    <td>17</td>
+                                    <td>10</td>
+                                    <td>29</td>
                                     <td>1</td>
-                                    <td>94%</td>
+                                    <td>97%</td>
                                 </tr>
                                     <td>2</td>
-                                    <td>Jay Frey</td>
-                                    <td>Smashed Potatoes</td>
-                                    <td>6</td>
-                                    <td>11</td>
-                                    <td>7</td>
-                                    <td>61%</td>
+                                    <td>Lyndsey Brandt</td>
+                                    <td>I'd Hit That</td>
+                                    <td>9</td>
+                                    <td>15</td>
+                                    <td>12</td>
+                                    <td>55%</td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Lyndsey Brandt</td>
-                                    <td>I'd Hit That</td>
-                                    <td>5</td>
+                                    <td>Jay Frey</td>
+                                    <td>Smashed Potatoes</td>
                                     <td>8</td>
-                                    <td>7</td>
-                                    <td>53%</td>
+                                    <td>13</td>
+                                    <td>11</td>
+                                    <td>54%</td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Bethany Anthony</td>
                                     <td>Sweet Digs</td>
-                                    <td>6</td>
-                                    <td>8</td>
-                                    <td>10</td>
-                                    <td>44%</td>
+                                    <td>9</td>
+                                    <td>9</td>
+                                    <td>18</td>
+                                    <td>33%</td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Jake Hampton</td>
                                     <td>Pounders</td>
-                                    <td>4</td>
-                                    <td>3</td>
-                                    <td>9</td>
-                                    <td>25%</td>
+                                    <td>8</td>
+                                    <td>7</td>
+                                    <td>17</td>
+                                    <td>29%</td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
                                     <td>Paul Nawrocki</td>
                                     <td>Bumpin' Uglies</td>
-                                    <td>7</td>
-                                    <td>4</td>
-                                    <td>17</td>
-                                    <td>19%</td>
+                                    <td>9</td>
+                                    <td>5</td>
+                                    <td>22</td>
+                                    <td>18%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -390,49 +390,49 @@
                                 <tr>
                                     <td>10</td>
                                     <td>September 29th</td>
-                                    <td>4:30</td>
+                                    <td>6:30</td>
                                     <td>1</td>
-                                    <td>4th Seed</td>
+                                    <td>Sweet Digs</td>
                                     <td>vs</td>
-                                    <td>5th Seed</td>
+                                    <td>Pounders</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>4:30</td>
+                                    <td>6:30</td>
                                     <td>2</td>
-                                    <td>3rd Seed</td>
+                                    <td>Smashed Potatoes</td>
                                     <td>vs</td>
-                                    <td>6th Seed</td>
+                                    <td>Bumpin' Uglies</td>
                                 </tr>
                                 <tr><td colspan="7" style="text-align: center;"><strong>Semifinals</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>5:30</td>
+                                    <td>7:30</td>
                                     <td>1</td>
-                                    <td>1st Seed</td>
+                                    <td>Good Sets</td>
                                     <td>vs</td>
-                                    <td>Winner Court 1 4:30</td>
+                                    <td>Winner Court 1 6:30</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>5:30</td>
+                                    <td>7:30</td>
                                     <td>2</td>
-                                    <td>2nd Seed</td>
+                                    <td>I'd Hit That</td>
                                     <td>vs</td>
-                                    <td>Winner Court 2 4:30</td>
+                                    <td>Winner Court 2 6:30</td>
                                 </tr>
                                 <tr><td colspan="7" style="text-align: center;"><strong>Finals!</strong></td></tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>6:30</td>
+                                    <td>8:30</td>
                                     <td>1</td>
-                                    <td>Winner Court 1 5:30</td>
+                                    <td>Winner Court 1 7:30</td>
                                     <td>vs</td>
-                                    <td>Winner Court 2 5:30</td>
+                                    <td>Winner Court 2 7:30</td>
                                 </tr>
                             </tbody>
                         </table>
