@@ -33,9 +33,9 @@
                     </div>
 
                     <div class="column is-12">
-                    	<div> Sadly, JAMMS has closed. At this point it is unlikely that leagues will be offered this summer. If the next owner is interested, I would like to continue running leagues at this location.</div>
+                    	<div class="is-size-5"> Sadly, JAMMS has closed. At this point it is unlikely that leagues will be offered this summer. If the next owner is interested, I would like to continue running leagues at this location.</div>
 
-                    	<div>If you would like to be notified of any future volleyball, please fill out the form below and I will notify you when I know more.</div>
+                    	<div class="is-size-5">If you would like to be notified of any future volleyball, please fill out the form below and I will notify you when I know more.</div>
                     </div>
 
                     <div class="column is-12">
