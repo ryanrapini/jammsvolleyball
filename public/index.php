@@ -26,9 +26,9 @@
     <section class="section">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-12">
-                    <p class="is-size-5">Sadly, JAMMS has closed. At this point it is unlikely that leagues will be offered this summer. If the next owner is interested, I would like to continue running leagues at this location. </p>
-                    <p class="is-size-5"><a class="button is-medium is-link is-small" href="/signup">Click Here</a> to add your email to the list and I will notify you when I know more!</p>
+                <div class="column is-12 is-vcentered">
+                    <p class="is-size-5 is-vcentered">Sadly, JAMMS has closed. At this point it is unlikely that leagues will be offered this summer. If the next owner is interested, I would like to continue running leagues at this location. </p>
+                    <p class="is-size-5 is-vcentered"><a class="button is-medium is-link is-small" href="/signup">Click Here</a> to add your email to the list and I will notify you when I know more!</p>
                 </div>
             </div>
             <div class="is-divider"></div>
