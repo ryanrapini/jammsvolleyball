@@ -33,9 +33,9 @@
                     </div>
 
                     <div class="column is-12">
-                    	<div>We are not accepting signups at this time, sorry!</div>
+                    	<div> Sadly, JAMMS has closed. At this point it is unlikely that leagues will be offered this summer. If the next owner is interested, I would like to continue running leagues at this location.</div>
 
-                    	<div>If you'd still like to play, you can fill out this form below to receive information about future events, or to be contacted when existing teams need a sub.</div>
+                    	<div>If you would like to be notified of any future volleyball, please fill out the form below and I will notify you when I know more.</div>
                     </div>
 
                     <div class="column is-12">
@@ -88,7 +88,7 @@
 											When subs are needed
 										</label>
                                     </div>
-                                    <div class="control">
+                                    <div class="control is-vcentered">
                                         <button class="button is-link">Submit</button>
                                     </div>
                                 </form>

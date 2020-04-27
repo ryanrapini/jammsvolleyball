@@ -26,36 +26,8 @@
     <section class="section">
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-6" id="leagues">
-                    <div class="columns has-text-centered">
-                        <h3 class="title column is-12" id="schedule">
-                            Schedule and Standings
-                        </h3>
-                    </div>
-                    <div class="columns is-mobile">
-                        <div class="column is-half has-text-centered">
-                            <h4 class="title is-4"><a class="button is-medium is-link" href="/leagues/friday">Friday</a></h4>
-                        </div>
-                        <div class="column is-half has-text-centered">
-                            <h4 class="title is-4"><a class="button is-medium is-link" href="/leagues/sunday">Sunday</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-6">
-                    <div class="columns has-text-centered">
-                        <h3 class="title column is-12">
-                        Sign up for Leagues
-                        </h3>
-                        
-                    </div>
-                    <div class="columns">
-                        <div class="column is-half has-text-centered">
-                            <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=full">I have a Full Team</a></h4>
-                        </div>
-                        <div class="column is-half has-text-centered">
-                            <h4 class="title is-4"><a class="button is-medium is-link" href="/signup?type=individual">I'm an Individual Player</a></h4>
-                        </div>
-                    </div>
+                <div class="column is-12">
+                    Sadly, JAMMS has closed. At this point it is unlikely that leagues will be offered this summer. If the next owner is interested, I would like to continue running leagues at this location. <a class="button is-medium is-link" href="/signup">Click Here</a> to add your email to the list and I will notify you when I know more!
                 </div>
             </div>
             <div class="is-divider"></div>
@@ -63,7 +35,6 @@
                
                 <div class="column is-6">
                     <?php include('../includes/leagues.php'); ?>
-                    <h4 class="title is-4"><a class="button is-medium is-link" href="/signup">Sign up today!</a></h4>
                 </div>
                 <div class="column is-5 is-offset-1">
                     <img src="/img/courts.jpg">
