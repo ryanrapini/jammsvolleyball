@@ -25,7 +25,7 @@
 
                     <div class="column is-12">
                         <div class="notification is-success" id="success-notification" style="display:none">
-                          You have been added successfully! You should receieve a follow-up email within 48 hours! Please remember to like our page on <a href="https://www.facebook.com/jammsvolleyball/">facebook</a> and tell your friends about our leagues!
+                          Your response has been saved successfully!
                         </div>
                         <div class="notification is-warning" id="fail-notification" style="display:none">
                           Something went wrong while saving your registration. Your registration was not sent. Please contact <a href="mailto:ryanrapini@gmail.com">ryanrapini@gmail.com</a> for assistance.
