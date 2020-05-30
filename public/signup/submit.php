@@ -30,6 +30,10 @@ function interestform($safePost){
 	if($safePost['interest_sub']){
 		$message .= "Subbing" .  "\n";
 	}
+	$message .= "IP Address: " . getenv("REMOTE_ADDR") ."\n";
+	if(isset($_SERVER['HTTP_USER_AGENT'])){
+		$message .= "User Agent: " . $_SERVER['HTTP_USER_AGENT'] . "\n";
+	}
 	return $message;
 }
 
@@ -42,6 +46,10 @@ function fullform($safePost) {
 	$message .= "Day of the Week: " . $safePost['weekday'] . "\n";
 	$message .= "Skill Level: " . $safePost['skilllevel'] . "\n";
 	$message .= "Additional Notes: " . $safePost['notes'] . "\n";
+	$message .= "IP Address: " . getenv("REMOTE_ADDR") ."\n";
+	if(isset($_SERVER['HTTP_USER_AGENT'])){
+		$message .= "User Agent: " . $_SERVER['HTTP_USER_AGENT'] . "\n";
+	}
 	return $message;
 }
 
@@ -53,6 +61,10 @@ function individualform($safePost) {
 	$message .= "Day of the Week: " . $safePost['weekday'] . "\n";
 	$message .= "Skill Level: " . $safePost['skilllevel'] . "\n";
 	$message .= "Additional Notes: " . $safePost['notes'] . "\n";
+	$message .= "IP Address: " . getenv("REMOTE_ADDR") ."\n";
+	if(isset($_SERVER['HTTP_USER_AGENT'])){
+		$message .= "User Agent: " . $_SERVER['HTTP_USER_AGENT'] . "\n";
+	}
 	return $message;
 }
 
